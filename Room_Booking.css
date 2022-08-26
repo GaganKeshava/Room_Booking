@@ -1,0 +1,53 @@
+#btn1, #btn3, #btn5 {
+    background-color:transparent;
+    padding: 1px;
+    font-size: 16px;
+    border: none;
+    color: red;
+}
+
+#btn2, #btn4, #btn6 {
+    background-color:transparent;
+    padding: 1px;
+    font-size: 16px;
+    border: none;
+    color: blue;
+}
+
+.div1 {
+    color: #042c57;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.div2 {
+    height: 100px;
+    width: 300px;
+    border-width: thin;
+    border-style:solid;
+    text-align: right;
+    padding-top: 1mm;
+    padding-right: 0.5mm;
+    padding-bottom: 1mm;
+    color: #10549B;
+}
+
+
+.div2 #di1 {
+    float: left;
+    padding-left: 1mm;
+}
+.rooms {
+    float: left;
+    padding-left: 4px;
+}
+
+.adults {
+    float: left;
+    padding-left: 9px;
+}
+
+.children {
+    float: left;
+    padding-left: 9px;
+}

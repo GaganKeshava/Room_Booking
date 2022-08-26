@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking</title>
+    <link rel="stylesheet" href="Room_Booking.css">
+    <link rel="shortcut icon" type="image/png" href="hotel.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="div1">
+    <i class="fa fa-users" aria-hidden="true"></i>
+    <span class="p1">Choose number of <b>people</b></span>
+    <div class="div2">
+        <i class="fa fa-bed" aria-hidden="true" id="di1"></i>
+        <span class="rooms">Rooms</span>
+        <button id="btn2"  onclick="decreement_room()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="number1" readonly/>
+        <button id="btn1"  onclick="increement_room()"><i class="fa-solid fa-circle-plus"></i></button>
+        <hr>
+
+        <i class="fa fa-user" aria-hidden="true" id="di1"></i>
+        <span class="adults">Adults</span> 
+        <button id="btn4"  onclick="decreement_adult()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="number2" readonly/>
+        <button id="btn3"  onclick="increement_adult()"><i class="fa-solid fa-circle-plus"></i></button>
+        <hr>
+
+        <i class="fa fa-child" aria-hidden="true" id="di1"></i>
+        <span class="children">Children</span> 
+        <button id="btn6"  onclick="decreement_children()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="number3" readonly/>
+        <button id="btn5"  onclick="increement_children()"><i class="fa-solid fa-circle-plus"></i></button>
+    </div>
+    </div>
+    <script src="Room_Booking.js"></script>
+    
+</body>
+</html>
