@@ -7,6 +7,14 @@ adult.value = 1; // Initially assigning adult number as 1
 function increement_room() {
     document.getElementById("btn2").style.color = 'blue';
     document.getElementById("btn2").disabled = false;
+    document.getElementById("btn3").disabled = false;
+    document.getElementById("btn5").disabled = false;
+    document.getElementById("btn3").style.color = 'red';
+    document.getElementById("btn5").style.color = 'red';
+    document.getElementById("btn4").disabled = false;
+    document.getElementById("btn6").disabled = false;
+    document.getElementById("btn4").style.color = 'blue';
+    document.getElementById("btn6").style.color = 'blue';
     room = document.getElementById("number1").value;  // getting the present value of the room number
     adult = document.getElementById("number2").value; // getting the present value of the adult number
     ++room;
@@ -30,7 +38,11 @@ function decreement_room() {
     document.getElementById("btn1").style.color = 'red';
     document.getElementById("btn1").disabled = false;
     document.getElementById("btn4").disabled = false;
+    document.getElementById("btn3").disabled = false;
+    document.getElementById("btn5").disabled = false;
     document.getElementById("btn4").style.color = 'blue';
+    document.getElementById("btn3").style.color = 'red';
+    document.getElementById("btn5").style.color = 'red';
     room = document.getElementById("number1").value;
     adult = document.getElementById("number2").value;
     children = document.getElementById("number3").value;
