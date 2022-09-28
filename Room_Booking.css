@@ -1,4 +1,4 @@
-#btn1, #btn3, #btn5 {
+#increment_room, #increment_adult, #increment_children {
     background-color:transparent;
     padding: 1px;
     font-size: 16px;
@@ -6,7 +6,19 @@
     color: red;
 }
 
-#btn2, #btn4, #btn6 {
+/*#increment_room:active:hover:not([disabled]) {
+    color:darkred;
+}
+
+#increment_room:disabled{
+    color: chartreuse;
+}
+
+#decrement_room:enabled {
+    color: blue;
+}*/
+
+#decrement_room, #decrement_adult, #decrement_children {
     background-color:transparent;
     padding: 1px;
     font-size: 16px;
@@ -22,32 +34,40 @@
 }
 .div2 {
     height: 100px;
-    width: 300px;
+    width: 350px;
     border-width: thin;
     border-style:solid;
     text-align: right;
-    padding-top: 1mm;
-    padding-right: 0.5mm;
-    padding-bottom: 1mm;
+    padding-top: 2mm;
+    padding-right: 1mm;
+    padding-bottom: 2mm;
     color: #10549B;
 }
 
 
-.div2 #di1 {
+.div2 #rooms_icon, #adults_icon, #children_icon {
     float: left;
     padding-left: 1mm;
+    font-size: 20px;
 }
-.rooms {
+.rooms_text {
     float: left;
     padding-left: 4px;
+    font-size: 20px;
 }
 
-.adults {
+.adults_text {
     float: left;
     padding-left: 9px;
+    font-size: 20px;
 }
 
-.children {
+.children_text {
     float: left;
     padding-left: 9px;
+    font-size: 20px;
+}
+
+#users_icon, .users_text {
+    font-size: 22px;
 }

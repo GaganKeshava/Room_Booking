@@ -12,28 +12,24 @@
 </head>
 <body>
     <div class="div1">
-    <i class="fa fa-users" aria-hidden="true"></i>
-    <span class="p1">Choose number of <b>people</b></span>
+    <i class="fa fa-users" aria-hidden="true" id="users_icon"></i><span class="users_text"> Choose number of <b>people</b></span><br>
     <div class="div2">
-        <i class="fa fa-bed" aria-hidden="true" id="di1"></i>
-        <span class="rooms">Rooms</span>
-        <button id="btn2"  onclick="decreement_room()"><i class="fa-solid fa-circle-minus"></i></button>
-        <input type="text"  size="1" id="number1" readonly/>
-        <button id="btn1"  onclick="increement_room()"><i class="fa-solid fa-circle-plus"></i></button>
+        <i class="fa fa-bed" aria-hidden="true" id="rooms_icon"></i><span class="rooms_text">Rooms</span>
+        <button id="decrement_room"  onclick="decrement_room()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="room" readonly/>
+        <button id="increment_room"  onclick="increment_room()"><i class="fa-solid fa-circle-plus"></i></button>
         <hr>
 
-        <i class="fa fa-user" aria-hidden="true" id="di1"></i>
-        <span class="adults">Adults</span> 
-        <button id="btn4"  onclick="decreement_adult()"><i class="fa-solid fa-circle-minus"></i></button>
-        <input type="text"  size="1" id="number2" readonly/>
-        <button id="btn3"  onclick="increement_adult()"><i class="fa-solid fa-circle-plus"></i></button>
+        <i class="fa fa-user" aria-hidden="true" id="adults_icon"></i><span class="adults_text">Adults</span> 
+        <button id="decrement_adult"  onclick="decrement_adult()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="adult" readonly/>
+        <button id="increment_adult"  onclick="increment_adult()"><i class="fa-solid fa-circle-plus"></i></button>
         <hr>
 
-        <i class="fa fa-child" aria-hidden="true" id="di1"></i>
-        <span class="children">Children</span> 
-        <button id="btn6"  onclick="decreement_children()"><i class="fa-solid fa-circle-minus"></i></button>
-        <input type="text"  size="1" id="number3" readonly/>
-        <button id="btn5"  onclick="increement_children()"><i class="fa-solid fa-circle-plus"></i></button>
+        <i class="fa fa-child" aria-hidden="true" id="children_icon"></i><span class="children_text">Children</span> 
+        <button id="decrement_children"  onclick="decrement_children()"><i class="fa-solid fa-circle-minus"></i></button>
+        <input type="text"  size="1" id="children" readonly/>
+        <button id="increment_children"  onclick="increment_children()"><i class="fa-solid fa-circle-plus"></i></button>
     </div>
     </div>
     <script src="Room_Booking.js"></script>
